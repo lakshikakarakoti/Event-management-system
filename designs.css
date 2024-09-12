@@ -1,0 +1,76 @@
+body {
+    font-family: Arial;
+    background-color: #a8a8a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ebd6d6;
+    padding: 25px;
+    border-radius: 20px;
+    width: 550px;
+    text-align: center;
+    position: fixed;
+}
+
+.title {
+    background-color: #8542bd;
+    color: rgb(241, 233, 233);
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    width: 100px;
+    background-color: #0e4d45;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input, select {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #20466f;
+    color: rgb(241, 241, 241);
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4d97e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3367cc;
+}

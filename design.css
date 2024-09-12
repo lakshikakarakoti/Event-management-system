@@ -1,0 +1,91 @@
+body {
+    font-family: Arial;
+    background-color: #dab3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+.container {
+    background-color: #efebeb;
+    padding: 25px;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    position: fixed;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.chart-button,
+.back-button {
+    background-color: #83678b;
+    color: rgb(243, 234, 213);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.chart-button:hover,
+.back-button:hover {
+    background-color: #af4fcf;
+}
+
+.title {
+    background-color: #0f5bac;
+    color: rgb(255, 254, 254);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login-form {
+    margin-top: 20px;
+}
+
+.input-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6a6767;
+    display: grid;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    width: 45%;
+    padding: 10px;
+    background-color: #423a3a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #372121;
+}
